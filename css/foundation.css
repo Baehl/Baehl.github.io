@@ -1396,10 +1396,10 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background: #2199e8;
+    background: #ed7d51;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
-      background: #147cc0;
+      background: #e26a3a;
       color: #fff; }
   .button.secondary {
     background: #777;
