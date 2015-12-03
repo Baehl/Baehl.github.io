@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<div data-magellan-expedition="fixed">
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
@@ -23,18 +24,21 @@
 
   <section class="top-bar-section">
     <ul class="left">
-      <li class="active"><a href="#">Home</a></li>
+      <li data-magellan-arrival="page1"><a href="#page1">Page 1</a></li>
+      <li data-magellan-arrival="page2"><a href="#page2">Page 2</a></li>
+    </ul>
+    <ul class="Right">
       <li class="has-dropdown">
-        <a href="#">About Me</a>
-        <ul class="dropdown">
-          <li><a href="#">Bio</a></li>
-          <li><a href="#">Work</a></li>
-          <li class="active"><a href="#">Contact</a></li>
+        <a href="#">Dropdown</a>
+         <ul class="dropdown">
+           <li><a href="#">First link in dropdown</a></li>
+           <li><a href="#">Second link in dropdown</a></li>
         </ul>
       </li>
     </ul>
   </section>
 </nav>
+</div>
 <ul class="example-orbit" data-orbit>
   <li>
     <img src="/img/img1.jpg" alt="slide 1" />
